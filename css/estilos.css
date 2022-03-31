@@ -8,8 +8,8 @@ body header img{
 }
 .imagen{
    padding: 5px;
-   width: 500px;
-   height: 350px;
+   width: 400px;
+   height: 280px;
 }
 .bordeImagen{
    border: 2px solid black;
@@ -59,12 +59,31 @@ body header img{
 .menu li:hover ul{
    display: block;
 }
+@keyframes colorLetra{
+   0%{
+      color: rgb(214, 10, 10);
+   }
+   40%{
+      color: rgb(170, 49, 19);
+   }
+   70%{
+      color: black;
+   }
+   100%{
+      color: black;
+   }
+}
 body header h1{
    text-align: center;
    font-size: 50px;
    font-family: 'Times New Roman';
-   background-color: cornflowerblue;
+   background: radial-gradient(circle, rgba(21,205,244,1) 9%, rgba(0,9,237,1) 100%);
+   animation-name: colorLetra;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
 }
+
+
 .publicidad{
    position: fixed;
    top: 200px;
@@ -81,12 +100,23 @@ body header h1{
    background-color: cornflowerblue;
 }
 .tamañoImagen2{
-   width: 300px;
-   height: 150px;
+   width: 400px;
+   height: 200px;
+   transition: all 3s;
+}
+header a img:hover{
+   width: 600px;
+   height: 300px;
+   filter: grayscale();
+   transform: rotate(360deg);
 }
 .tamañoImagen3{
    width: auto;
    height: auto;
+}
+.tamañoImagen4{
+   width: 260px;
+   transition: width 1s;
 }
 .flexboxImagenes{
    background-color: aquamarine;
@@ -104,10 +134,22 @@ body header h1{
 .centrar{
    justify-content: space-around;
 }
+.flexboxContactosDiv {
+   display: flex;
+   flex-direction: column;
+   transition: all 2s;
+   
+}
+section article form div input:focus{
+   width: 300px;
+   font-size: 15px;
+}
 .flexboxImagenesDiv{
    display: flex;
    flex-direction: column;
-   align-items: center;
+   align-items: center; }
+.flexboxImagenesDiv img:hover{
+   width: 340px;
 }
 .contenedor{
    display: grid;
@@ -133,6 +175,7 @@ footer ul{
    flex-direction: column;
    justify-content: space-evenly;
    align-items: center;
+   background: linear-gradient(0deg, rgba(208,53,22,1) 0%, rgba(0,9,237,1) 0%, rgba(21,205,244,1) 99%); 
 }
 @media screen and (max-width: 500px) {
    .menu li{
@@ -148,5 +191,11 @@ footer ul{
    }
    body header h1{
       font-size: 40px;
+   }
+   header a img:hover{
+      width: 240px;
+      height: 125px;
+      filter: grayscale();
+      transform: rotate(360deg);
    }
 }
