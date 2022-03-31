@@ -81,12 +81,23 @@ body header h1{
    background-color: cornflowerblue;
 }
 .tamañoImagen2{
-   width: 300px;
-   height: 150px;
+   width: 400px;
+   height: 200px;
+   transition: all 3s;
+}
+header a img:hover{
+   width: 600px;
+   height: 300px;
+   filter: grayscale();
+   transform: rotate(360deg);
 }
 .tamañoImagen3{
    width: auto;
    height: auto;
+}
+.tamañoImagen4{
+   width: 260px;
+   transition: width 1s;
 }
 .flexboxImagenes{
    background-color: aquamarine;
@@ -104,15 +115,23 @@ body header h1{
 .centrar{
    justify-content: space-around;
 }
+.flexboxContactosDiv {
+   display: flex;
+   flex-direction: column;
+   /*justify-items: auto;*/
+   transition: all 2s;
+   
+}
+section article form div input:focus{
+   width: 400px;
+   font-size: 15px;
+}
 .flexboxImagenesDiv{
    display: flex;
    flex-direction: column;
-   align-items: center;
-   transition: all 3s;
-}
+   align-items: center; }
 .flexboxImagenesDiv img:hover{
-   height: 400px;
-   width: auto;
+   width: 340px;
 }
 .contenedor{
    display: grid;
@@ -154,5 +173,11 @@ footer ul{
    }
    body header h1{
       font-size: 40px;
+   }
+   header a img:hover{
+      width: 240px;
+      height: 125px;
+      filter: grayscale();
+      transform: rotate(360deg);
    }
 }
