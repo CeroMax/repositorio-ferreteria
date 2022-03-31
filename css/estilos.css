@@ -8,8 +8,8 @@ body header img{
 }
 .imagen{
    padding: 5px;
-   width: 500px;
-   height: 350px;
+   width: 400px;
+   height: 280px;
 }
 .bordeImagen{
    border: 2px solid black;
@@ -78,7 +78,6 @@ body header h1{
    font-size: 50px;
    font-family: 'Times New Roman';
    background: radial-gradient(circle, rgba(21,205,244,1) 9%, rgba(0,9,237,1) 100%);
-   /*color: red;*/
    animation-name: colorLetra;
    animation-duration: 5s;
    animation-iteration-count: infinite;
@@ -138,12 +137,11 @@ header a img:hover{
 .flexboxContactosDiv {
    display: flex;
    flex-direction: column;
-   /*justify-items: auto;*/
    transition: all 2s;
    
 }
 section article form div input:focus{
-   width: 400px;
+   width: 300px;
    font-size: 15px;
 }
 .flexboxImagenesDiv{
