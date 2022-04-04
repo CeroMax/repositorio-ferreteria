@@ -1,5 +1,11 @@
 
 
+
+.margenes{
+   padding: 0px;
+   margin: 0px;
+}
+
 main h1{
    text-align: center;
 }
@@ -162,10 +168,15 @@ section article form div input:focus{
 .flexboxImagenesDiv img:hover{
    width: 340px;
 }
+.buscar{
+   display: flex;
+   align-items: center;
+   justify-content: left;
+}
 .contenedor{
-   display: grid;
+   /*display: grid;
    grid-template-columns: 1fr 1fr;
-   grid-template-rows: 0.5fr;
+   grid-template-rows: 0.5fr;*/
    background-color: aqua;  
 }
 .contenedor ul p{
