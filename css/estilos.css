@@ -59,6 +59,9 @@ body header img{
 .menu li:hover ul{
    display: block;
 }
+.clasePrueba{
+   display: flex;
+}
 @keyframes colorLetra{
    0%{
       color: rgb(214, 10, 10);
@@ -82,7 +85,15 @@ body header h1{
    animation-duration: 5s;
    animation-iteration-count: infinite;
 }
-
+.claseH1{
+   text-align: center;
+   font-size: 50px;
+   font-family: 'Times New Roman';
+   background: radial-gradient(circle, rgba(21,205,244,1) 9%, rgba(0,9,237,1) 100%);
+   animation-name: colorLetra;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+}
 
 .publicidad{
    position: fixed;
@@ -177,6 +188,7 @@ footer ul{
    align-items: center;
    background: linear-gradient(0deg, rgba(208,53,22,1) 0%, rgba(0,9,237,1) 0%, rgba(21,205,244,1) 99%); 
 }
+
 @media screen and (max-width: 500px) {
    .menu li{
       display: flex;
