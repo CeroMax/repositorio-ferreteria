@@ -1,4 +1,21 @@
 
+.carousel {
+   display: flex;
+   background-color: bisque;
+   justify-content: center;
+   align-items: center;
+   padding: 0 50px;
+}
+.carousel img {
+   width: 400px;
+   height: 300px;
+   padding-bottom: 10px;
+}
+
+.carousel p {
+   padding: 0 30px;
+   width: 600px;
+}
 
 
 .margenes{
