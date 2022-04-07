@@ -10,9 +10,16 @@
     <link rel="stylesheet" href="../css/estilos.css">
 
 </head>
-<body>
+<body class="container-fluid">
     <header>
-        <a href="../index.html"><img class="bordeImagen tamañoImagen2" src="../imagenes/logo_ferreteria3.jpg"  alt="Logo de la pagina"></a>
+        <section class="row">
+            <div class="col-xs-12 col-md-9">
+                <a href="../index.html"><img class="bordeImagen tamañoImagen2" src="../imagenes/logo_ferreteria3.jpg"  alt="Logo de la pagina"></a>
+            </div>
+            <div class="buscar col-xs-12 col-md-3">
+                <input type="search" placeholder="buscar">
+            </div>
+        </section>
         <div class="publicidad">publicidad</div>
         
         <nav class="navegacion">
@@ -65,15 +72,15 @@
 
     <br>
     
-    <footer class="contenedor" id="footer">
-        <ul>
+    <footer class="contenedor row" >
+        <ul class="contenedorHijo col-md-6">
             <li><a href="facebook.com">Facebook</a></li>
             <li><a href="instagram.com">Instagram</a></li>
         </ul>
-        <ul>
+        <ul class="col-md-6">
             <p>Este sitio apenas comienza a tomar forma</p>
             <p>y es mio</p>
-        </ul>
+        </ul>   
     </footer>
 
 
