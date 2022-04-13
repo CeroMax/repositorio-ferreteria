@@ -1,0 +1,21 @@
+/*footer{
+    background-color: aqua;
+}*/
+body footer {
+  background-color: aqua; }
+  body footer ul {
+    align-self: center; }
+    body footer ul li a {
+      color: black; }
+    body footer ul p {
+      color: black; }
+
+/*h1{
+    color:$colorblack;
+}*/
+/*header{
+    background-color: $coloraqua;
+    p{
+        font-size: 20px;
+    }
+}*/

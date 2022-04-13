@@ -1,0 +1,20 @@
+
+/*footer{
+    background-color: aqua;
+}*/
+body{
+    footer{
+        background-color: aqua;
+        ul{
+            align-self: center;
+            li{
+               a{
+                   color: $colorblack;
+               }
+            }
+            p{
+                color: $colorblack; 
+            }
+        }
+    }
+}
