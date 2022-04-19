@@ -1,0 +1,8 @@
+
+cambie title
+agregue keyword
+agregue description
+agregue los alt a las imagenes
+agregue archivo.xml
+cambie tipo de letra en menu
+comprimi imagenes para para que no pesen tanto

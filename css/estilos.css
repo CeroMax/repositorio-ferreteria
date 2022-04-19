@@ -37,7 +37,7 @@ body header img{
    margin: 10px;
 }
 .imagenFondo{   
-   background-image: url(../imagenes/fotoferreteria5.png);
+   background-image: url(../imagenes/fotoferreteria5-min.png);
    background-size: 100% 380px;
 }
 .imagen{
@@ -59,9 +59,10 @@ body header img{
    padding: 20px 70px 70px 70px;
    border: 1px solid black;
 }
-.nosotros h2{
-   width: 850px;
-   height: 300px;
+.nosotros h3{
+   display: flex;
+   width: auto;
+   height: auto;
    color: blue;
    background-color: beige;
    overflow: auto; 
@@ -72,10 +73,13 @@ body header img{
 .navegacion ul li a{
    color: black;
 }
+.menu{
+   font-family: 'Times New Roman';
+}
 .menu li{
    display: inline-block;
    position: relative;
-   font-size: 20px;
+   font-size: 25px;
    padding: 0 10px;
 }
 .menu li a{
