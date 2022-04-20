@@ -230,6 +230,7 @@ footer ul{
 }
 .contenedorHijo{
    align-self: center;
+   align-items: center;
 }
 .flexboxContactos{
    display: flex;
