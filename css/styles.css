@@ -1,3 +1,39 @@
+@charset "UTF-8";
+/* maps: 1º se declara el mapa*/
+/* despues se declara el bucle para asignar los valores del map*/
+.boton1 {
+  background-color: red; }
+
+.boton2 {
+  background-color: yellow; }
+
+.boton3 {
+  background-color: black; }
+
+/* map-get*/
+.navegacion {
+  background-color: #4f70db; }
+
+.menu {
+  font-family: "times new roman"; }
+
+/* extend*/
+.imagen, .bordeImagenEmpresa {
+  padding: 5px;
+  width: 400px;
+  height: 280px; }
+
+/*con @extend se traen los estilos a extender*/
+.bordeImagenEmpresa {
+  border: 2px solid black;
+  margin: 0px;
+  padding: 0px; }
+
+/* mixins*/
+.tamañoInner {
+  height: 240px;
+  width: 340px; }
+
 body footer {
   background-color: aqua; }
   body footer ul {

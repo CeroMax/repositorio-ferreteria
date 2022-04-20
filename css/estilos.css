@@ -20,10 +20,10 @@
    padding: 0 30px;
    width: 600px;
 }*/
-.tamañoInner{
+/*.tamañoInner{
    width: 340px;
    height: 240px;
-}
+}*/
 
 .margenes{
    padding: 0px;
@@ -67,15 +67,15 @@ body header img{
    background-color: beige;
    overflow: auto; 
 }
-.navegacion{
+/*.navegacion{
    background-color: rgb(79, 112, 219);
-}
+}*/
 .navegacion ul li a{
    color: black;
 }
-.menu{
+/*.menu{
    font-family: 'Times New Roman';
-}
+}*/
 .menu li{
    display: inline-block;
    position: relative;

@@ -2,3 +2,54 @@
 $coloraqua: aqua;
 $colorblack: black;
 
+/* maps: 1º se declara el mapa*/
+$botones: (
+  boton1:red,
+  boton2: yellow,
+  boton3: black,
+  
+);
+/* despues se declara el bucle para asignar los valores del map*/
+@each $red, $color in $botones {
+    .#{$red} {
+      background-color: $color;
+    }
+  }
+/* map-get*/
+$estilos: (
+    centrar: center,
+    fuenteEstilo: "times new roman",
+    colorFondo:rgb(79, 112, 219) ,
+);
+
+.navegacion {
+        background-color: map-get($estilos, colorFondo);
+        
+    }
+
+.menu{
+    font-family: map-get($estilos, fuenteEstilo );
+}
+
+/* extend*/
+.imagen{
+    padding: 5px;
+    width: 400px;
+    height: 280px;
+ }
+ /*con @extend se traen los estilos a extender*/
+ .bordeImagenEmpresa{
+    @extend .imagen;
+    border: 2px solid black;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* mixins*/
+@mixin sizes($ancho, $alto) {
+  height: $alto;
+  width: $ancho;
+}
+.tamañoInner{
+  @include sizes(340px,240px)
+}

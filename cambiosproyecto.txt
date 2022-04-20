@@ -6,3 +6,11 @@ agregue los alt a las imagenes
 agregue archivo.xml
 cambie tipo de letra en menu
 comprimi imagenes para para que no pesen tanto
+
+
+
+agregado map para cambiar color botones en contacto
+agregado map-get para cambiar en los menu color de fondo y estilos de fuente
+agregado extend para fotos en pagina empresa
+agregado mixin en carousel en pagina index
+
