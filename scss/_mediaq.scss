@@ -1,0 +1,50 @@
+
+@keyframes colorLetra{
+    0%{
+       color: rgb(214, 10, 10);
+    }
+    40%{
+       color: rgb(170, 49, 19);
+    }
+    70%{
+       color: black;
+    }
+    100%{
+       color: black;
+    }
+ }
+
+ @media screen and (max-width: 500px) {
+    .menu{ 
+        li{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .tamañoImagen2{
+       width: 240px;
+       height: 125px;
+    }
+    .flexboxImagenes{
+       background-color:white;
+    }
+    body{ 
+        header{ 
+            h1{
+                font-size: 40px;
+            }
+        }
+    }
+    header{ 
+        a{ 
+            img{
+                &:hover{
+                    width: 240px;
+                    height: 125px;
+                    /*filter: grayscale();*/
+                    transform: rotate(360deg);
+                }
+            }
+        }
+    }
+ }

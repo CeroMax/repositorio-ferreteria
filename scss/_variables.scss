@@ -59,3 +59,109 @@ $estilos: (
 .zIndex{
   z-index: 0;
 }
+.carousel {
+  display: flex;
+  background-color: bisque;
+  justify-content: center;
+  align-items: center;  
+}
+.margenes{
+  padding: 0px;
+  margin: 0px;
+}
+.imagenFondo{   
+  background-image: url(../imagenes/fotoferreteria5-min.png);
+  background-size: 100% 380px;
+}
+.bordeImagen{
+  border: 2px solid black;
+  margin: 0px;
+  padding: 0px;
+}
+.nosotros{
+  background-color:rgb(145, 233, 233);
+  margin: 15px;
+  padding: 20px 70px 70px 70px;
+  border: 1px solid black;
+}
+.submenu{
+  display: none;
+  position: absolute;
+  left: 160px;
+}
+.clasePrueba{
+  display: flex;
+}
+.claseH1{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Times New Roman';
+  background: radial-gradient(circle, rgba(21,205,244,1) 9%, rgba(0,9,237,1) 100%);
+  animation-name: colorLetra;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+.encabezadoPagina{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Times New Roman';
+  background-color: cornflowerblue;
+}
+.tamañoImagen2{
+  width: 340px;
+  height: 240px;
+  transition: all 3s;
+}
+.tamañoImagen3{
+  width: auto;
+  height: auto;
+}
+.tamañoImagen4{
+  width: 260px;
+  transition: width 1s;
+}
+.flexboxImagenes{
+  background-color: aquamarine;
+  padding: 5px;
+  margin: 5px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items:flex-end;
+}
+.centrarTexto{
+  text-align: center;
+}
+.centrar{
+  justify-content: space-around;
+}
+.flexboxContactosDiv {
+  display: flex;
+  flex-direction: column;
+  transition: all 2s;  
+}
+.flexboxImagenesDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+.buscar{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.contenedor{
+  background-color: aqua;  
+}
+.contenedorHijo{
+  align-self: center;
+  align-items: center;
+}
+.flexboxContactos{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background: linear-gradient(0deg, rgba(208,53,22,1) 0%, rgba(0,9,237,1) 0%, rgba(21,205,244,1) 99%); 
+}

@@ -1,0 +1,149 @@
+main{
+    h1{
+        text-align: center;
+    }
+}
+body{
+    header{
+            img{
+                margin: 10px;
+            } 
+    } 
+}
+
+footer{ 
+    p {
+        color: aqua;
+    }
+}
+
+.nosotros{
+    h3{
+        display: flex;
+        width: auto;
+        height: auto;
+        color: blue;
+        background-color: beige;
+        overflow: auto; 
+    }
+} 
+
+.navegacion{
+     ul{ 
+        li{ 
+            a{
+                color: black;
+            }
+        }
+    }
+}
+
+.menu{ 
+    li{
+        display: inline-block;
+        position: relative;
+        font-size: 25px;
+        padding: 0 10px;
+    }
+}
+
+.menu{ 
+    li{ 
+        a{
+        text-decoration: none;
+        }
+    }
+}
+
+.menu{ 
+    li{ 
+        a{
+            &:hover{
+            background-color:cornflowerblue;
+            }
+        }
+    }
+}
+
+.submenu{ 
+    li{
+        display: block;
+        background-color: bisque;
+    }
+}
+
+.menu{ 
+    li{
+        &:hover{ 
+            ul{
+                display: block;
+            }
+        }
+    }
+}
+        
+body{ 
+    header{ 
+        h1{
+            text-align: center;
+            font-size: 50px;
+            font-family: 'Times New Roman';
+            background: radial-gradient(circle, rgba(21,205,244,1) 9%, rgba(0,9,237,1) 100%);
+            animation-name: colorLetra;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+    }
+}
+
+header{ 
+    a{ 
+        img{
+            &:hover{
+                width: 600px;
+                height: 300px;
+                /*filter: grayscale();*/
+                transform: rotate(360deg);
+            }
+        }
+    }
+}
+
+.flexboxImagenesDiv{ 
+    img{
+        &:hover{
+            width: 340px;
+        }
+    }
+}
+
+.contenedor{ 
+    ul{ 
+        p{
+            color: black;
+        }
+    }
+}
+
+.contenedor{ 
+    ul{ 
+        li{ 
+            a{
+                color: black;   
+            }
+        }
+    }
+}
+
+section{ 
+    article{ 
+        form{ 
+            div{ 
+                input:focus{
+                    width: 300px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
