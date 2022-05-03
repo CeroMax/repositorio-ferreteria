@@ -10,6 +10,9 @@
 .boton3 {
   background-color: black; }
 
+.boton4 {
+  background-color: #4f70db; }
+
 /* map-get*/
 .navegacion {
   background-color: #4f70db; }
@@ -49,6 +52,11 @@
 .margenes {
   padding: 0px;
   margin: 0px; }
+
+.margenes2 {
+  padding: 0px;
+  margin: 0px;
+  bottom: 5px; }
 
 .imagenFondo {
   background-image: url(../imagenes/fotoferreteria5-min.png);
@@ -145,6 +153,9 @@
   justify-content: space-evenly;
   align-items: center;
   background: linear-gradient(0deg, #d03516 0%, #0009ed 0%, #15cdf4 99%); }
+
+.colorLetra {
+  color: black; }
 
 body footer {
   background-color: aqua; }

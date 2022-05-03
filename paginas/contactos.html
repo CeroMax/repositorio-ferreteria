@@ -12,7 +12,7 @@
     <!--<link rel="stylesheet" href="../css/estilos.css">-->
     <link rel="stylesheet" href="../css/styles.css">
 </head>
-<body class="container-fluid">
+<body class="margenes container-fluid">
     
     <header>
         <section class="imagenFondo row">
@@ -20,11 +20,41 @@
                 <a href="../index.html"><img class="bordeImagen tamañoImagen2" src="../imagenes/logonuevo2-min.png"  alt="Logo de la pagina"></a>
             </div>
             <div class="buscar col-xs-12 col-md-3">
-                <input type="search" placeholder="buscar">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="colorLetra boton4 btn btn-outline-success" type="submit">buscar</button>
             </div>
         </section>
 
-        <section class="row">
+        <nav class="margenes2 navbar navbar-expand-lg navbar-light bg-light">
+            <div class="margenes container-fluid">
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navegacion collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="menu navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contactos.html">Contactos</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link active" href="empresa.html">Empresa</a></li>
+                        <li class="nav-item ">
+                            <a class="nav-link active" href="herramientas.html" >Herramientas de mano</a>
+                            <ul class="submenu dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Gas</a></li>
+                                <li><a class="dropdown-item" href="#">Plomeria</a></li>
+                                <li><a class="dropdown-item" href="#">Electricidad</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link active" href="productos_ferreteria.html">Herramientas electricas</a></li>
+                    </ul>
+              </div>
+            </div>
+        </nav>
+
+        <!--<section class="row">
             <div class="margenes col 12">
                 <nav class="navegacion">
                     <ul class="menu">
@@ -42,7 +72,7 @@
                     </ul>
                 </nav>
             </div>
-        </section>
+        </section>-->
     </header>
     <section class="row">
         <div class="claseH1 col 12">    
