@@ -54,9 +54,8 @@
   margin: 0px; }
 
 .margenes2 {
-  padding: 0px;
-  margin: 0px;
-  bottom: 5px; }
+  padding: 2px 0px;
+  margin: 0px; }
 
 .imagenFondo {
   background-image: url(../imagenes/fotoferreteria5-min.png);
@@ -156,6 +155,25 @@
 
 .colorLetra {
   color: black; }
+
+.margenInferior {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.colorLetra2 {
+  color: white; }
+
+.bordeBuscar {
+  border: 2px solid black;
+  margin-top: 5px;
+  margin-bottom: 10px; }
+
+.colorFondo {
+  background: radial-gradient(circle, #15cdf4 9%, #0009ed 100%); }
+
+.tipoLetra {
+  font-family: 'Times New Roman';
+  text-decoration: underline; }
 
 body footer {
   background-color: aqua; }

@@ -12,7 +12,7 @@
     <!--<link rel="stylesheet" href="../css/estilos.css">-->
     <link rel="stylesheet" href="../css/styles.css">
 </head>
-<body class="margenes container-fluid">
+<body class=" container-fluid">
     
     <header>
         <section class="imagenFondo row">
@@ -20,73 +20,54 @@
                 <a href="../index.html"><img class="bordeImagen tamañoImagen2" src="../imagenes/logonuevo2-min.png"  alt="Logo de la pagina"></a>
             </div>
             <div class="buscar col-xs-12 col-md-3">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="colorLetra boton4 btn btn-outline-success" type="submit">buscar</button>
+                <input class=" bordeBuscar form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="colorLetra boton4 bordeBuscar btn btn-outline-success" type="submit">buscar</button>
             </div>
         </section>
+        <section class="row"> 
+            <nav class="margenes2 navbar navbar-expand-lg navbar-light bg-light">
+                <div class="margenes colorFondo container-fluid">
+                    
+                    <button class="navegacion navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-        <nav class="margenes2 navbar navbar-expand-lg navbar-light bg-light">
-            <div class="margenes container-fluid">
-                
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navegacion collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="menu navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="contactos.html">Contactos</a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link active" href="empresa.html">Empresa</a></li>
-                        <li class="nav-item ">
-                            <a class="nav-link active" href="herramientas.html" >Herramientas de mano</a>
-                            <ul class="submenu dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Gas</a></li>
-                                <li><a class="dropdown-item" href="#">Plomeria</a></li>
-                                <li><a class="dropdown-item" href="#">Electricidad</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item"><a class="nav-link active" href="productos_ferreteria.html">Herramientas electricas</a></li>
-                    </ul>
-              </div>
-            </div>
-        </nav>
-
-        <!--<section class="row">
-            <div class="margenes col 12">
-                <nav class="navegacion">
-                    <ul class="menu">
-                        <li><a href="../index.html">Inicio</a></li>
-                        <li><a href="contactos.html">Contactos</a></li>
-                        <li><a href="empresa.html">Empresa</a></li>
-                        <li><a href="herramientas.html">Herramientas de mano</a>
-                            <ul class="submenu">
-                                <li> <a href="#">Gas</a></li>
-                                <li><a href="#">Plomeria</a></li>
-                                <li><a href="#">Electricidad</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="productos_ferreteria.html">Herramientas electricas</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </section>-->
+                    <div class="navegacion collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="menu navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="contactos.html">Contactos</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link active" href="empresa.html">Empresa</a></li>
+                            <li class="nav-item ">
+                                <a class="nav-link active" href="herramientas.html" >Herramientas de mano</a>
+                                <ul class="submenu dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Gas</a></li>
+                                    <li><a class="dropdown-item" href="#">Plomeria</a></li>
+                                    <li><a class="dropdown-item" href="#">Electricidad</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link active" href="productos_ferreteria.html">Herramientas electricas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>   
+        
     </header>
+
     <section class="row">
         <div class="claseH1 col 12">    
             <h1>"Florida" Ferreteria Industrial</h1>
         </div>
-
-        
-
     </section>
 
     
-    <section>
-        <article class="flexboxContactos">
-            <h2>Contactenos</h2>
+    <section class="row">
+        <article class=" flexboxContactos">
+            <h2 class="tipoLetra">Contactenos</h2>
             <form action="#">
                 <div>
                     <p>Nombre:</p>
@@ -108,11 +89,11 @@
                     <p>Comentario:</p>
                     <textarea name="" id="" cols="30" rows="10" placeholder="ingrese su comentario"></textarea>
                 </div>
-                <div>Soy humano
+                <div class="colorLetra2">Soy humano
                     <input type="checkbox" name="acepta" value="1">
                 </div>
-                <input class="boton1" type="submit" name="enviar">
-                <input class="boton2" type="reset" value="borrar">
+                <input class="boton4 margenInferior" type="submit" name="enviar">
+                <input class="boton4 margenInferior" type="reset" value="borrar">
 
                 
             </form>
