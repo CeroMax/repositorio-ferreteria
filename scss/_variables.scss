@@ -157,11 +157,13 @@ $estilos: (
   justify-content: left;
 }
 .contenedor{
-  background-color: aqua;  
+  background-color: aqua;
+  padding-left: 15px;
 }
 .contenedorHijo{
   align-self: center;
   align-items: center;
+  
 }
 .flexboxContactos{
   display: flex;
@@ -191,4 +193,9 @@ $estilos: (
 .tipoLetra{
   font-family: 'Times New Roman';
   text-decoration: underline;
+}
+.flexboxFooter{
+  display: flex;
+  flex-direction: column;
+  
 }

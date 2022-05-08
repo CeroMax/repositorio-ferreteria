@@ -140,7 +140,8 @@
   justify-content: left; }
 
 .contenedor {
-  background-color: aqua; }
+  background-color: aqua;
+  padding-left: 15px; }
 
 .contenedorHijo {
   align-self: center;
@@ -175,6 +176,10 @@
   font-family: 'Times New Roman';
   text-decoration: underline; }
 
+.flexboxFooter {
+  display: flex;
+  flex-direction: column; }
+
 body footer {
   background-color: aqua; }
   body footer ul {
@@ -186,7 +191,7 @@ body footer {
 
 footer ul {
   margin: 0px;
-  padding: 0px; }
+  padding: 10px; }
 
 @keyframes colorLetra {
   0% {
