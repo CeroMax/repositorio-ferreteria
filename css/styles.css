@@ -180,6 +180,20 @@
   display: flex;
   flex-direction: column; }
 
+.margenTop {
+  padding-top: 5px; }
+
+.margenLeft {
+  padding-left: 0px; }
+
+.tipoLetra2 {
+  font-family: 'Times New Roman';
+  text-decoration: none;
+  font-size: 20px; }
+
+.margenTop2 {
+  padding-top: 20px; }
+
 body footer {
   background-color: aqua; }
   body footer ul {
