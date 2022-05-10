@@ -128,7 +128,7 @@ $estilos: (
 .flexboxImagenes{
   background-color: aquamarine;
   padding: 5px;
-  margin: 5px 0px;
+  margin:  0px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -205,6 +205,9 @@ $estilos: (
 .margenLeft{
   padding-left: 0px;
 }
+.margenLeft2{
+  padding-left: 50px;
+}
 .tipoLetra2{
   font-family: 'Times New Roman';
   text-decoration: none;
@@ -212,4 +215,18 @@ $estilos: (
 }
 .margenTop2{
   padding-top:20px ;
+}
+.colorFondo2{
+  background: linear-gradient(0deg, #d03516 0%, #0009ed 0%, #15cdf4 99%);
+}
+.textoArea{
+  display: flex;
+  width: auto;
+  height: 300px;
+  color: blue;
+  background-color: beige;
+  overflow: auto;
+}
+.margenNosotros{
+  margin: 0px;
 }
