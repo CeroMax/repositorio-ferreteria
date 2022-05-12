@@ -230,3 +230,17 @@ $estilos: (
 .margenNosotros{
   margin: 0px;
 }
+.novedadesCentrar{
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  font-family: 'Times New Roman';
+  background-color: bisque;
+  }
+  .margenesNovedades{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  
